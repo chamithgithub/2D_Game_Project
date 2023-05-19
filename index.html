@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zombie-Game</title>
+    <link rel="icon" href="assets/img/solo.png">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body id="space" class="container-md">
+
+<!--Sections-->
+
+<section id="solo-back" class="container-md">
+    <img id="solo" src="assets/img/solo.png" alt="solo">
+</section>
+
+<section id="score" class="rounded-3 bg-info border border-light">
+    <div>
+        <h3 class="text">SCORE</h3>
+        <h3 id="score-point" class="text">0</h3>
+    </div>
+</section>
+
+<section id="play-game-menu">
+    <div class="game-menu">
+        <h1 class="text-info fw-bold title mt-3">PLAY GAME</h1>
+        <div class="d-flex justify-content-center">
+            <button id="btn-start" type="button" class="btn-outline-success btn-lg mt-3">Play now!</button>
+        </div>
+    </div>
+</section>
+
+<section id="game-over-menu">
+    <div class=" game-menu">
+        <h1 class="text-danger fw-bold title">GAME OVER</h1>
+        <h3 class="text-info score-text">SCORE</h3>
+        <h4 id="final-score" class="text-info score-text">0</h4>
+        <div class="d-flex justify-content-center">
+            <button id="btn-try-again" type="button" class="btn btn-primary btn-lg mt-3">Try Again</button>
+        </div>
+    </div>
+</section>
+<!--<section id="footer" class="container-md">-->
+<!--</section>-->
+
+<!--   Scripts    -->
+
+    <script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="controller/main.js"></script>
+
+</body>
+</html>
